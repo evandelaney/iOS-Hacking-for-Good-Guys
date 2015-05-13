@@ -1,7 +1,8 @@
 # Blackhatting for Good Guys
-Evan DeLaney (@edelaney05)
-Fish Hook LLC
-April 2015 - CocoaHeads Atlanta
+Evan DeLaney (@edelaney05)  
+Fish Hook LLC  
+~~April 2015 - CocoaHeads Atlanta~~  
+May 2015 - iOS Meetup
 
 ---
 
@@ -15,7 +16,7 @@ April 2015 - CocoaHeads Atlanta
 
 ## Agenda
 1. Man-in-the-middle network attack
-2. ~~Runtime manipulation with the help of jailbreaking~~
+2. Runtime manipulation with the help of jailbreaking
 3. Disassembly to snoop for source code treasure 
 
 ---
@@ -41,9 +42,7 @@ April 2015 - CocoaHeads Atlanta
 
 ## Let’s Use Charles to MitM Attack an app
 - Examine SSL Traffic
-- Filter the traffic we’re seeing
 - Breakpoint client requests and server responses
-- Rewrite server responses
 
 ---
 
@@ -58,13 +57,13 @@ April 2015 - CocoaHeads Atlanta
 
 [Paul Haddad’s tweetstorm from 2012](https://storify.com/johnmichel/paul-haddad-reviews-ios-apps-for-address-book-tran)
 
-WWDC 2011
+WWDC 2011  
 [Securing iOS Application](https://developer.apple.com/videos/wwdc/2011/)
 
-LumberBlog
+LumberBlog  
 [Why app developers should care about SSL pinning](http://blog.lumberlabs.com/2012/04/why-app-developers-should-care-about.html)
 
-Minded Security Research Labs
+Minded Security Research Labs  
 [SSL MiTM attack in AFNetworking 2.5.1 - Do NOT use it in production!](http://blog.mindedsecurity.com/2015/03/ssl-mitm-attack-in-afnetworking-251-do.html)
 
 ## Application Runtime Attacks - Anecdotes
@@ -100,30 +99,30 @@ Minded Security Research Labs
 
 ---
 
-## ~~Let’s use MobileLoader to inject the Reveal iOS library~~
-- ~~Copy Reveal.framework and libReveal.dylib to jailbroken device~~
-- ~~Create MobileLoader plist~~
-- ~~Relaunch Spring Board~~
-- ~~Launch targeted app~~
+## Let’s use MobileLoader to inject the Reveal iOS library
+- Copy Reveal.framework and libReveal.dylib to jailbroken device
+- Create MobileLoader plist
+- Relaunch Spring Board
+- Launch targeted app
 
 ---
 
 ## How Do We Prevent?
-¯\_(ツ)_/¯
+¯\\_(ツ)_/¯
  
 ---
 
 ## Resources:
-Reveal’s Blog
+Reveal’s Blog  
 [Integrating Reveal without modifying your Xcode project](http://blog.ittybittyapps.com/blog/2013/11/07/integrating-reveal-without-modifying-your-xcode-project/)
 
-Peter Steinberger (@steipete)
+Peter Steinberger (@steipete)  
 [How to Inspect the View Hierarch of Third-Party Apps](http://petersteinberger.com/blog/2013/how-to-inspect-the-view-hierarchy-of-3rd-party-apps/)
 
-Apple Mac Developer
+Apple Mac Developer  
 [OS X Manual Page for dlopen(3)](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/dlopen.3.html)
 
-Cydia Substrate Docs
+Cydia Substrate Docs  
 [Getting Started](http://www.cydiasubstrate.com/id/264d6581-a762-4343-9605-729ef12ff0af/)
 
 ---
@@ -137,7 +136,7 @@ Cydia Substrate Docs
 
 ## What is Hopper?
 - Reverse engineering tool
-- Turn and executable binary into something programmer-readable
+- Turn executable binary into something programmer-readable
 
 ---
 
@@ -173,11 +172,11 @@ Cydia Substrate Docs
 [Bart Cone - Hopper + lldb for iOS Developers: A Gentle Introduction](http://www.bartcone.com/new-blog/2014/11/26/hopper-lldb-for-ios-developers-a-gentle-introduction)
 
 ---
-Books:
-Hacking and Securing iOS Applications - Jonathan Zdziarski
+Books:  
+Hacking and Securing iOS Applications - Jonathan Zdziarski  
 http://fhk.io/hack-and-secure-ios-apps
 
-iOS Hacker’s Handbook - Charlie Miller, et al
+iOS Hacker’s Handbook - Charlie Miller, et al  
 http://fhk.io/ios-hackers-handbook
 
 ---
@@ -190,7 +189,7 @@ http://fhk.io/ios-hackers-handbook
 
 ## Resources
 
-Zdziarski’s Blog of Things
+Zdziarski’s Blog of Things  
 [Introduction to iOS Binary Patching (Part 1)](http://www.zdziarski.com/blog/?p=2172)
 
 [How App Store Apps are Hacked on Non-Jailbroken Phones (and Why Self-Expiring Messaging Apps Aren’t Trustworthy)](http://www.zdziarski.com/blog/?p=4002)
